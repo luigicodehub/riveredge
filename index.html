@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个HTML页面</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 这是页面的主要内容区域 -->
+    <header>
+        <h1>欢迎来到riveredge</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>关于HTML</h2>
+            <p>HTML（超文本标记语言）是用于创建网页的标准标记语言。</p>
+        </section>
+
+        <section id="about">
+            <h2>HTML基础</h2>
+            <p>HTML使用标签来标记内容，例如：</p>
+            <ul>
+                <li>&lt;h1&gt; 到 &lt;h6&gt; 用于标题</li>
+                <li>&lt;p&gt; 用于段落</li>
+                <li>&lt;a&gt; 用于链接</li>
+                <li>&lt;img&gt; 用于图片</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <form>
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">邮箱：</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的HTML学习网站</p>
+    </footer>
+</body>
+</html> 
